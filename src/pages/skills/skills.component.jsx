@@ -14,8 +14,8 @@ const Skills = () => {
 
 
 <div className="pt-3 pb-3" id="skills">
-      <h1 className="text-center font-details-b pb-4">DEVELOPMENT TECHNOLOGIES</h1>
-
+      <h1 className="text-center font-details-b pb-4"> MY SKILLS</h1>
+  
       <CardDeck>
         <Row className="d-flex justify-content-around">
 
