@@ -23,7 +23,6 @@ import L_C from "../../assets/img/skills/c.svg";
 import L_JAVA from "../../assets/img/skills/java-4.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 
-import L_GIT from "../../assets/img/skills/git-icon.svg";
 
 export const skills = {
     frontend: [
@@ -131,14 +130,6 @@ export const skills = {
           imgAltText: "MongoDB",
           imgSrc: L_MONGODB,
           skillName: "MongoDB",
-        },
-      ],
-      versionControl: [
-        {
-          link: "https://git-scm.com/",
-          imgAltText: "GIT",
-          imgSrc: L_GIT,
-          skillName: "GIT",
         },
       ],
 

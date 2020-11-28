@@ -1,11 +1,12 @@
-
 import React from "react";
 
 //components
-
 import MyNavbar from "./components/my-navbar/mynavbar.component";
 import MyCarousel from "./components/my-carousel/my-carousel.component";
 import TitleMessage from "./components/title-message/title-message.component";
+import ProjectTimeline from "./components/projects-timeline/projects-timeline.component";
+
+//pages
 import About from "./pages/about/about.component";
 import Skills from "./pages/skills/skills.component";
 import Education from "./pages/experience/experience.component"; 
@@ -76,6 +77,23 @@ const App = () => {
 
         </Container>
       </div>
+
+      {/* Seksioni MyWork*/}
+<hr/>
+   <div>
+     
+     <div>
+        <Container className="container-box rounded">
+          
+          <Slide bottom duration={500}>
+
+          <ProjectTimeline/>
+
+          </Slide>
+
+        </Container>
+      </div>
+   </div>
 
     </div>
   );
