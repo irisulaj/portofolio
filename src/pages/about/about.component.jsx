@@ -38,20 +38,20 @@ const About = () => {
 Hello, My name is
  <strong>&nbsp;Shaqir Sulaj</strong>
 
- <br/> A commited web developer and a software engineer student. I am a Full Stack Web Developer from Albania with HTML, CSS, Bootstrap React.js, PHP, Node.js and MySQL.
-<br/> In 2020, I graduated with excellent results in Economic Informatics Bachelor's Degree.  <br/> Now I am following Master's Degree in Informatics Engineering at the<a href = "https://uet.edu.al/new/" >European University of Tirana.</a>
-Working with the clients, my goal is always driven towards providing amazing experience with the best level of quality and service to them.
-Along with that, I also help people as a COACH on their journey of becoming a professional programmer.
-I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
-<br/>
-<br/>
+ <br/> A commited web developer and a software engineer student. 
+ <br/>I am a Full Stack Web Developer with HTML, CSS, Bootstrap React.js, PHP and MySQL. 
+<br/>I am very fond of new development technologies and I consistently make efforts to improve myself.
+<br/> Currently I am studying Node js and MongoDB, in addition to my back end set of skills.
+<br/> In 2020 I graduated with excellent results in Economic Informatics Bachelor Degree, which is a strong indicator
+of my abilities to get things done within the deadline.
+
        
 {/* Linqet*/}
            
        <Col className="d-flex justify-content-center flex-wrap">
 
        <div>
-                  <a href="#contact">
+                  <a href="#contactfooter">
                   <Button className = "m-2" variant="outline-primary" > 
                      Contact &nbsp;
                       <i className=" fa fa-mobile-alt"></i>
@@ -59,17 +59,9 @@ I love learning about new technologies, what problems are they solving and How c
                   </a>
         </div>
 
-        <div>
-                  <a href=" " target="_blank" rel="noopener noreferrer">
-                      <Button className="m-2" variant="outline-success">
-                        Resume  &nbsp;
-                      <i className=" fa fa-file"></i>
-                      </Button>
-                    </a>
-        </div>
 
         <div>
-                  <a href=" " target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/irisulaj/" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-dark">
                         GitHub &nbsp;
                       <i className=" fab fa-github"></i>
@@ -79,7 +71,7 @@ I love learning about new technologies, what problems are they solving and How c
         </div>
                   
         <div>
-                  <a href=" " target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/shaqir-sulaj-3370051aa" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-info">
                           Linked &nbsp;
                       <i className=" fab fa-linkedin"></i>

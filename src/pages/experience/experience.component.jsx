@@ -19,7 +19,7 @@ const Education = () => {
 
       <Card>
       <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
-              <a href="https://uet.edu.al/new/" target="_blank">  <Card.Img variant="top" className="img-resize" src={L_UET} alt="EUT logo"  /> </a>
+                <Card.Img variant="top" className="img-resize" src={L_UET} alt="EUT logo"  /> 
               </Card.Header>
 
               <Card.Body className="d-flex justify-content-center flex-column">

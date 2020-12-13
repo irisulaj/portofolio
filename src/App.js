@@ -5,26 +5,34 @@ import MyNavbar from "./components/my-navbar/mynavbar.component";
 import MyCarousel from "./components/my-carousel/my-carousel.component";
 import TitleMessage from "./components/title-message/title-message.component";
 import ProjectTimeline from "./components/projects-timeline/projects-timeline.component";
+import FooterBanner from "./components/footer/footer.component"
 
 //pages
 import About from "./pages/about/about.component";
 import Skills from "./pages/skills/skills.component";
 import Education from "./pages/experience/experience.component"; 
+//import Contact from "./pages/contact-form/contact-form.component"
 
 import BgImage from "./assets/img/parallex/background.webp"; 
 
 import "./App.css";
+
 import Container from 'react-bootstrap/Container'
 import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
 import { Parallax } from "react-parallax";
-
+//import Particles from "react-particles-js";
+//import { particlesOptions } from "./particlesOptions";
 
 
 const App = () => {
   return (
-    <div  className="App" style={{ position: "relative" }}>
+    <div  style={{ position: "relative" }}>
       <MyNavbar/>
+      {/*<Particles
+        className="particles particles-box"
+        params={particlesOptions}
+      />*/ }
       <MyCarousel/>
       <TitleMessage/>
 
@@ -95,6 +103,16 @@ const App = () => {
       </div>
    </div>
 
+         {/* Seksioni Contact me
+<hr/>
+        <div className="app2">
+        <Slide bottom duration={1000}>
+          <Contact/>
+          </Slide>
+          </div> */}
+{/*Footer*/}
+     
+          <FooterBanner/>     
     </div>
   );
 }

@@ -27,9 +27,9 @@ import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 
 //Projects
 import L_EXAMINATION from "../../assets/img/projects/e2.jpg";
-import L_BANKING from "../../assets/img/projects/banking.jpg";
+import L_BANKING from "../../assets/img/projects/banking.JPG";
 import L_MONEYRISE from "../../assets/img/projects/moneyrise.jpg"
-import L_TRAVEL from "../../assets/img/projects/travel2.jpg"
+import L_TRAVEL from "../../assets/img/projects/travel2.JPG"
 
 
 const ProjectTimeline = () =>{
@@ -275,7 +275,7 @@ const ProjectTimeline = () =>{
                  SEE LIVE
                 </UrlButton>
                 <UrlButton
-                  href="#online_banking_system"
+                  href="https://github.com/irisulaj/ebank" target="_blank" rel="noopener noreferrer"
                  
                 >
                   SOURCE CODE
@@ -388,8 +388,7 @@ const ProjectTimeline = () =>{
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="http://moneyrise.net/"
-                 target="_blank"
+                  href="http://moneyrise.net/" target="_blank" rel="noopener noreferrer"
                 >
                  SEE LIVE
                 </UrlButton>
@@ -411,7 +410,7 @@ const ProjectTimeline = () =>{
 
   {/* Travel Agency Management*/}
   <ImageEvent
-            date="02/04/2020"
+            date="05/06/2019"
             className="text-center"
             text="Travel Agency Management"
             src = {L_TRAVEL}
@@ -469,7 +468,7 @@ const ProjectTimeline = () =>{
                  SEE LIVE
                 </UrlButton>
                 <UrlButton
-                  href="#travel_agency_management"
+                  href="https://github.com/irisulaj/cpp" target="_blank" rel="noopener noreferrer"
                  
                 >
                   SOURCE CODE

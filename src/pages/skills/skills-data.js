@@ -77,7 +77,7 @@ export const skills = {
           link: "https://nodejs.org/en/",
           imgAltText: "Node.js",
           imgSrc: L_NODE_JS,
-          skillName: "Node.js",
+          skillName: "Node.js (Loading...)",
         },
 
       ],
@@ -98,7 +98,7 @@ export const skills = {
           link: "https://www.heroku.com/",
           imgAltText: "Heroku",
           imgSrc: L_HEROKU,
-          skillName: "Heroku",
+          skillName: "Heroku (Loading...)",
         },
       ],
       programmingLanguages: [
@@ -113,7 +113,7 @@ export const skills = {
           link: "https://www.java.com/en/",
           imgAltText: "Java",
           imgSrc: L_JAVA,
-          skillName: "JAVA",
+          skillName: "JAVA (Loading...)",
       },
       
       ],
@@ -129,7 +129,7 @@ export const skills = {
           link: "https://www.mongodb.com/",
           imgAltText: "MongoDB",
           imgSrc: L_MONGODB,
-          skillName: "MongoDB",
+          skillName: "MongoDB (Loading...)",
         },
       ],
 
